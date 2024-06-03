@@ -1,0 +1,20 @@
+{
+  "name": "@bucket-image-resize/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.137",
+    "@types/node": "^20.12.11",
+    "sst": "^2.41.5",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.572.0",
+    "@aws-sdk/lib-storage": "^3.572.0",
+    "sharp": "^0.33.3"
+  }
+}
